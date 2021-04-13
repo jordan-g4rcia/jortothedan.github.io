@@ -1,11 +1,9 @@
 /*1. Base*/
 
 html {
-    background-color: #0026ff
-    ;
-    background-image: linear-gradient(to bottom right, #0011aa, #00ffff
-    );
-    color: #fff;
+    background-color: #e0c8ea;
+    background-image: linear-gradient(to bottom right, #eae0c8, #54cfaa);
+    color: rgb(0, 0, 0);
     font-family: "Quicksand", sans-serif;
     font-size: 16px;
     -moz-osx-font-smoothing: grayscale;
@@ -54,7 +52,7 @@ a {
     background-image: url("../images/mountainsandtress.jpg");
     background-position: center;
     background-size: cover;
-    opacity: 0.2;
+    opacity: 1;
     position: fixed;
 }
 
@@ -98,8 +96,8 @@ a {
 }
 
 .job {
-    color: #ffe479;
-    font-size: 0.75rem;
+    color: #0f4fff;
+    font-size: 1rem;
 }
 
 .hr {
@@ -109,11 +107,12 @@ a {
     height: 1px;
     margin-bottom: 1.5rem;
     transform-origin: center left;
-    width: 4rem;
+    width: 12rem;
 }
 
 .description {
     font-size: 1.5rem;
+    letter-spacing: normal;
 }
 
 .contact {
@@ -126,7 +125,7 @@ a {
     background-color: #fff;
     border-radius: 121690px;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-    color: #0011aa;
+    color: #0f4fff;
     display: inline-block;
     font-size: 0.875rem;
     line-height: 1;
